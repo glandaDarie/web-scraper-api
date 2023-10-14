@@ -1,4 +1,3 @@
-<script>
 import validUrl from 'valid-url';
 
 export default function validateUrl(url) {
@@ -20,4 +19,3 @@ export default function validateUrl(url) {
         error: null
     };
 }
-</script>
