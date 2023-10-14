@@ -11,6 +11,7 @@
 </template>
   
 <script>
+import { URL_SCRAPER } from '@/utils/constants';
 import validateUrl from '@/utils/urlValidator';
 
 export default {
@@ -21,7 +22,7 @@ export default {
                 return validator.error;
             }
             let data = null;
-            const url = 'http://localhost:3000/scrape?url=' + this.parameterUrl;
+            const url = URL_SCRAPER + this.parameterUrl;
             try {
                 const response = await fetch(url);
                 if (response.status === 200) {
@@ -32,7 +33,7 @@ export default {
             } catch (error) {
                 alert(`Error: ${error}`);
             }
-            alert(`Data: ${JSON.stringify(data)}`);
+            this.$emit('data-updated', data);
         },
     },
 };

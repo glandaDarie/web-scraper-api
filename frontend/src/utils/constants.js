@@ -1,0 +1,1 @@
+exports.URL_SCRAPER = 'http://localhost:3000/scrape?url=' 
