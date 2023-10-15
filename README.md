@@ -18,6 +18,7 @@ GET /scrape?url=https://example.com
 
 #### Example Response
 
+```json
 [
   {
     "title": "Sample Title",
@@ -28,5 +29,15 @@ GET /scrape?url=https://example.com
     "image": "https://example.com/image.jpg",
     "sentiment": "positive",
     "words": 250
+  },
+  {
+    "title": "Sample Title 2",
+    "short_description": "Some other short description of the content.",
+    "author": "Michael Jordan",
+    "profession": "Teacher",
+    "href": "https://example.com/page2",
+    "image": "https://example.com/image2.jpg",
+    "sentiment": "neutral",
+    "words": 138
   }
 ]
