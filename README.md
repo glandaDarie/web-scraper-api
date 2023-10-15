@@ -41,3 +41,69 @@ GET /scrape?url=https://example.com
     "words": 138
   }
 ]
+```
+
+## Installation
+
+### Clone the Repository
+
+1. Open your terminal or command prompt.
+
+2. Navigate to the directory where you want to clone the project.
+
+3. Run the following command to clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/your-repo.git
+   ```
+
+## Backend Setup
+
+1. Navigate to the backend directory:
+
+   ```bash
+   cd backend
+   ```
+   
+2. Install the required dependencies:
+
+   ```bash
+   npm install
+   ```
+
+3. Start the backend server:
+
+   ```bash
+   node app.js
+   ```
+
+## Frontend Setup
+
+1. Navigate to the frontend directory:
+
+   ```bash
+   cd frontend
+   ```
+
+2. Install the required dependencies:
+
+   ```bash
+   npm install
+   ```
+
+3. Start the frontend server:
+
+   ```bash
+   npm run serve
+   ```
+
+## Usage
+
+With both the backend and frontend servers running, you can access the web scraper application using your web browser.
+
+1. Open your web browser and visit http://localhost:8080 to use the frontend interface.
+2. Make API requests to the backend at http://localhost:3000/scrape for web scraping.
+
+## Note
+
+Ensure that both servers are running simultaneously for the full functionality of the application. The frontend provides a user-friendly interface, while the backend handles web scraping and sentiment analysis.
