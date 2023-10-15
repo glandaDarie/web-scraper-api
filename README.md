@@ -107,3 +107,8 @@ With both the backend and frontend servers running, you can access the web scrap
 ## Note
 
 Ensure that both servers are running simultaneously for the full functionality of the application. The frontend provides a user-friendly interface, while the backend handles web scraping and sentiment analysis.
+
+## Images 
+
+![Scraper screen](assets/scrapper-ui.png)
+
