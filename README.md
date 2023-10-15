@@ -110,5 +110,5 @@ Ensure that both servers are running simultaneously for the full functionality o
 
 ## Images 
 
-![Scraper screen](assets/scrapper-ui.png)
+![Scraper screen](assets/scraper-ui.png)
 
