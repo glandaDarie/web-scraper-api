@@ -1,5 +1,5 @@
 <template>
-  <h1>Web Scrapper</h1>
+  <h1>Web Scraper</h1>
   <SearchBar @data-updated="updateData" backgroundText="Text"></SearchBar>
   <br>
   <h2><b>Results</b></h2>
