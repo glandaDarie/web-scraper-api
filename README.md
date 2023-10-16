@@ -54,7 +54,7 @@ GET /scrape?url=https://example.com
 3. Run the following command to clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/your-repo.git
+   git clone https://github.com/glandaDarie/web-scraper-api.git
    ```
 
 ## Backend Setup
